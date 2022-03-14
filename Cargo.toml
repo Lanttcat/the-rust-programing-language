@@ -7,6 +7,10 @@ edition = "2021"
 name = "guess_number"
 src = "./src/guess_number.rs"
 
+[[bin]]
+name = "first_word"
+src = "./src/first_word.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
