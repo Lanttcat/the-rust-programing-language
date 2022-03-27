@@ -11,8 +11,11 @@ src = "./src/guess_number.rs"
 name = "first_word"
 src = "./src/first_word.rs"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "drop_trait"
+src = "./src/drop_trait.rs"
 
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
 rand = "0.8.5"
 io = "0.0.2"
